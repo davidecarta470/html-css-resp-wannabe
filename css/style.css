@@ -63,10 +63,14 @@ img{
 /*PARTE RESPONSIVE*/
 @media screen and (max-width:420px){
   .row{
-
-    width:100vw;
+    width:100%;
   }
-  
+  img{
+    height:30vw;
+  }
+  #why .row img{
+    height:15vw;
+  }
   .container.grey .row{
     background-color:#f2f2cd;
   }
