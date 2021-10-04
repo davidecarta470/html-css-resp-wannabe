@@ -61,10 +61,34 @@ img{
 }
 
 /*PARTE RESPONSIVE*/
+/* Screen tablet */
+@media screen and (max-width:780px){
+  .row{
+    width:700px;
+  }
+  img{
+    height:200px;
+  }
+  #why .row img{
+    height: 100px;
+  }
+  .container.grey .row{
+    background-color:#f2f2cd;
+  }
+  #lezioni .row > .left,
+  #lezioni .row > .right,
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right{
+    float:none;
+    width:100%;
+    margin-top:20px
+  }
+}
 /* Screen  */
 @media screen and (max-width:420px){
   .row{
-    width:100%;
+    width:400px;
   }
   img{
     height:100px;
@@ -85,4 +109,3 @@ img{
     margin-top:20px
   }
 }
-/* Screen tablet */
