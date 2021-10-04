@@ -61,15 +61,16 @@ img{
 }
 
 /*PARTE RESPONSIVE*/
+/* Screen  */
 @media screen and (max-width:420px){
   .row{
     width:100%;
   }
   img{
-    height:30vw;
+    height:100px;
   }
   #why .row img{
-    height:15vw;
+    height: 50px;
   }
   .container.grey .row{
     background-color:#f2f2cd;
@@ -81,5 +82,7 @@ img{
   #steps .row .right{
     float:none;
     width:100%;
+    margin-top:20px
   }
 }
+/* Screen tablet */
